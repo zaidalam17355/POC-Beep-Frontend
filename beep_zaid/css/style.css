@@ -1,0 +1,448 @@
+/*==========Navbar Styling==========*/
+
+.navbar{
+    height: 80px;
+}
+
+.logo img{
+    height: 80px;
+    width: auto;
+    float: left;
+}
+
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar ul li{
+    
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    font-family:"ProximaNova";
+
+}
+.dot{
+    color: red;
+    font-weight: 900;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+/*=============Navigation styling=============*/
+
+.navigation{
+    height: 90px;
+}
+
+.navigation p{
+   padding: 20px 20px;
+   font-size: 14px;
+   padding-left: 30px;
+    font-weight: 600;
+    font-family:"ProximaNova";
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll; 
+}
+
+
+/*=============Main styling=============*/
+.main .col-md-4{
+    background-color:white;
+    padding-right: 35px;
+}
+
+.main .col-md-4 .categories{
+    padding-top: 20px;
+    background-color:#E5E8EA ;
+}
+.main .col-md-4 .categories ul{
+    list-style-type: none;
+    padding-left: 20px;
+    font-family:"ProximaNova";
+    
+}
+
+.main .col-md-4 .categories ul li{
+    padding-top: 20px;
+    font-size: 16px;
+}
+.main .col-md-4 .categories ul li a{
+    text-decoration: none;
+    color:inherit;
+    font-weight: 600;
+}
+.main .col-md-4 .categories h{
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family:"ProximaNova";
+}
+
+.main .col-md-4 .categories p{
+    color:#33A0FF;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:"ProximaNova";
+}
+
+/*===========Carousel Styling==============*/
+
+
+.main .col-md-8{
+    padding-left: 0;
+    padding-right: 0;
+}
+.main .im-overlay{
+    padding-left: 0;
+    background-color: #2E90E5;
+    margin-bottom: 24px;
+}
+.main .im-overlay .text{
+    padding:30px;
+    
+}
+
+.main .im-overlay .text h1{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.main .im-overlay .text p{
+    color: white;
+    line-height:1.75;
+    padding-bottom: 20px;
+}
+
+.main .im-overlay .text h5{
+    font-size: 14px;
+    color: white;
+    text-decoration:underline;
+}
+
+.carousel-inner>.item>img {
+    width: auto;
+    height: 100%;
+    float: right;
+}
+/*====Styling Price Section=====*/
+
+.main .prices .col-md-12{
+    margin-top: 24px;
+    background-color: #E5E8EA;
+    padding: 20px;
+    
+}
+
+
+.main .prices .col-md-12 h{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main .prices .col-md-12 p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    font-family:"ProximaNova";
+}
+
+.main .prices .col-md-12 .form-control{
+    display: inline-block;
+}
+
+
+/*=====Styling of Dropdown button*/
+.main .dropd .col-md-12{
+    background-color:#E5E8EA;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.main .dropd .drop{
+    display: inline-block;
+    float: left;
+    padding:20px;
+}
+
+/*=========Colour section=======*/
+
+
+.color .col-md-12{
+    margin-top: 24px;
+    background-color:#E5E8EA;
+    padding: 20px;
+}
+
+.color h{
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+.color body {
+	 position: absolute;
+	 top: 35%;
+	 left: 35%;
+	 transform: translate(-35%, -35%);
+	 color: #333;
+}
+.color input[type="radio"] {
+	 display: none;
+}
+.color input[type="radio"]:checked + label span {
+	 transform: scale(1.25);
+}
+.color input[type="radio"]:checked + label .red {
+	 border: 2px solid #711313;
+}
+.color input[type="radio"]:checked + label .orange {
+	 border: 2px solid #873a08;
+}
+.color input[type="radio"]:checked + label .yellow {
+	 border: 2px solid #816102;
+}
+.color input[type="radio"]:checked + label .olive {
+	 border: 2px solid #505a0b;
+}
+.color input[type="radio"]:checked + label .green {
+	 border: 2px solid #0e4e1d;
+}
+.color input[type="radio"]:checked + label .teal {
+	 border: 2px solid #003633;
+}
+.color label {
+	 display: inline-block;
+	 width: 20px;
+	 height: 20px;
+	 margin-right: 10px;
+	 cursor: pointer;
+}
+.color label:hover span {
+	 transform: scale(1.5);
+}
+.color label span {
+	 display: inline-block;
+	 width: 100%;
+	 height: 100%;
+	 border-radius: 50%;
+     margin: 20px;
+	 transition: transform 0.2s ease-in-out;
+}
+.color label span.red {
+	 background: blue;
+}
+.color label span.orange {
+    margin-left: 40px;
+	 background: yellow;
+}
+.color label span.yellow {
+    margin-left: 60px;
+	 background: black;
+}
+.color label span.olive {
+    margin-left: 120px;
+	 background: pink;
+}
+.color label span.green {
+    margin-left: 40px;
+	 background: red;
+}
+.color label span.teal {
+    margin-left: 100px;
+	 background: grey;
+}
+
+
+/*========Styling Brand==========*/
+
+.main .brand .col-md-12{
+     margin-top: 24px;
+    background-color: #E5E8EA;
+    padding: 20px;
+    
+    
+}
+.main .brand .col-md-12 ul li span{
+    float: right;
+    color: gray;
+}
+
+
+
+.main .brand .col-md-12 h{
+    
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"ProximaNova";
+    
+}
+
+.main .brand .col-md-12 ul{
+    
+    list-style-type: none;
+    padding: 5px;
+    font-family:"ProximaNova";
+}
+
+.main .brand .col-md-12 ul li{
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.main .brand .col-md-12 ul li a{
+    text-decoration: none;
+    color:inherit;
+    font-weight: 600;
+}
+/*=========Styling More Setion========*/
+
+.main .more .col-md-12{
+    
+    margin-top: 24px;
+    background-color: #E5E8EA;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.main .more .col-md-12 h{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"ProximaNova";
+}
+
+.main .more .col-md-12 a{   
+    text-decoration: none;
+    color:inherit;
+    font-weight: 600;
+    
+}
+
+
+/*Styling Page Navigation*/
+.main .pagenav .col-md-12{
+    margin-top: 24px;
+    background-color: #E5E8EA;
+}
+
+.main .pagenav .pg{
+    display: inline-block;
+
+}
+
+.main .pagenav .pg:hover{
+    background-color: black;
+}
+
+.main .pagenav .pg p:hover{
+    color: white;
+}
+.main .pagenav .pg p{
+    padding: 20px;
+}
+
+.main .pagenav .centr{
+    text-align: center;
+}
+/*=====styling the footer section======*/
+footer .col-md-4 .beep{
+    height: 80px;
+    width: auto;
+    
+}
+
+footer .col-md-4{
+   
+}
+footer .col-md-4 h1{
+    
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    font-family:"ProximaNova";
+    
+}
+
+footer .col-md-4 p{
+    font-size: 16px;
+    padding: 20px;
+    font-family:"ProximaNova";
+    
+    
+}
+
+footer .col-md-4 .smallimg img{
+    padding: 20px;
+
+}
+
+.copyright ul{
+    list-style-type: none;
+}
+
+.copyright ul li{
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+
+.copyright p{
+    padding: 20px;
+    float: left;
+    font-family:"ProximaNova";
+}
+
+
+
+/*=======Main Content Styling=======*/
+
+.maincontent .col-md-12{
+    margin: 5px 5px 5px 5px;
+    
+}
+
+.maincontent .col-md-12 .col-md-3{
+    display: inline-block;
+    padding:20px;  
+    border: 5px solid #E5E8EA;
+    margin: 20px
+    
+    
+}
+
+.maincontent .txt h1{
+    font-size: 16px;
+    color: red;
+    font-family:"ProximaNova";
+}
+
+.maincontent .txt p{
+    font-weight: 600;
+    font-family:"ProximaNova";
+}
+
+.rating{
+    padding:5px;
+    
+}
+
+
+
